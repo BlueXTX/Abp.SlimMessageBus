@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueXTX.Abp.SlimMessageBus", "BlueXTX.Abp.SlimMessageBus\BlueXTX.Abp.SlimMessageBus.csproj", "{FF9FE9FD-98DE-4175-92CF-0AA8766AFBB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{8B8B7D82-B6E2-48B7-9841-35B7886375C2}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish-nuget.yaml = .github\workflows\publish-nuget.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
